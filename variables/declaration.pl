@@ -14,7 +14,8 @@ print "ur fav color is " . $colour ."\n";
 
 # we can just use the 'strict' pragma which requires you to
 # declare variables explicitly before using them
-# so the following block will throw an error
+# so the following block will throw an error:
+
 # use strict;
 # my $color = 'red';
 # print "ur fav color is " . $colour . "\n";
